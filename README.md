@@ -1,2 +1,2 @@
 # kiluhos-mods
-Report issues about kiluho's mods, make suggestions and view guides
+Hi and welcome! On repository, you can create posts about my projects or access the wiki.
