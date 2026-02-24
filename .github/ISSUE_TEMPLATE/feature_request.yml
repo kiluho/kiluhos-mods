@@ -1,0 +1,22 @@
+name: Feature Suggestion
+description: Submit your ideas here :>
+title: "[SUGGESTION]: "
+labels: ["suggestion"]
+assignees:
+  - kiluho
+body:
+- type: textarea
+  attributes:
+    label: Please describe your suggestion
+    description: "Please provide a detailed description of your suggestion. If necessary, upload screenshots or concepts using the button below."
+    placeholder: "Example: I think the game should play spongebob music when the menu is open. ..."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Are there any additional details?
+    description: "If necessary, provide any additional details for this bug."
+    placeholder: "Example: I accidentally slipped on a banana this morning, maybe that caused this?"
+- type: markdown
+  attributes:
+    value: "## Thank you for using my mod and submitting your idea!"
