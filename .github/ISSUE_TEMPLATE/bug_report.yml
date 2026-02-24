@@ -18,7 +18,7 @@ body:
     placeholder: "Example: 1.0.5"
   validations:
     required: true
-- type: checkboxes
+- type: dropdown
   attributes:
     label: Which operating system are you using?
     description: Please prodide addtional details, like version numbers, below.
