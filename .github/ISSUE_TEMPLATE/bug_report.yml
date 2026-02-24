@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report an issue.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: "Please describe this bug and upload any additional screenshots."
+    placeholder: "Example: When I start my game it crashes and tells me to follow kiluho on Twitch. I attached a picture of my feet. ..."
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Mod Version
+    description: "Which version of kiluho's Keystrokes are you using?"
+    placeholder: "Example: 1.0.5"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Operating System
+    description: "Which operating system are you using?"
+    placeholder: "Example: macOS 26 Tahoe"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Minecraft Version
+    description: "Which Minecraft version are you using?"
+    placeholder: "Example: 1.21.10"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional details
+    description: "If necessary, provide any additional details for this bug."
+    placeholder: "Example: I accidentally slipped on a banana this morning, maybe that caused this?"
